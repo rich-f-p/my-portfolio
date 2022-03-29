@@ -75,11 +75,13 @@ h1{
     flex-wrap: wrap;
     padding:10px;
 }
-.projects h2{
+#projects {
     width: 100%;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
+    border-bottom: 10px solid;
+    border-color: black;
 }
 
 .first:hover, 
@@ -97,7 +99,7 @@ img{
     rgb(255, 217, 0);
 }
 
-
+/* projects coming soon */
 .pro-soon{
     width: 500px;
     height: 170px;
@@ -110,9 +112,42 @@ img{
         rgb(22, 15, 53) 100%
     );
 }
+/* changing link colors */
 a:link{
     color: white;
 }
 a:visited{
     color:antiquewhite;
+}
+/*  */
+.aboutme {
+    background-color: rgb(66, 65, 65);
+    height:500px;
+    width: 100%;
+}
+.aboutme h2{
+    padding: 50px;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex: 1 0;
+    font-weight: 20px;
+}
+
+.aboutme p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutme p,
+.aboutme ul {
+    padding-top: 30px;
+    padding-right: 30px;
+    float: right;
+    color: white;
+    width: 700px;
+    text-align: center;
+
+}
+ul li {
+    list-style-type: none;
 }
