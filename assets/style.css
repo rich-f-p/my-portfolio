@@ -1,7 +1,3 @@
-*{
-    margin:0;
-    padding:0;
-}
 body{
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -14,6 +10,7 @@ body{
     height: 100px;
     display: inline-block;
     position: fixed;
+    z-index: 4;
 }
 
 h1{
@@ -22,7 +19,6 @@ h1{
 
 .header nav{
     float:right;
-
 }
 
 .header a{
@@ -58,9 +54,10 @@ h1{
     top: 350px;
     right: 16px;
     display: flex;
-    z-index: 3;
     float: right;
     width: 400px;
+    z-index: 3;
+    
 }
 /*  */
 .wrap{
@@ -88,15 +85,15 @@ h1{
 img{
     border-radius: 30px;
     transition: all 0.3s ease-in;
-    width: 620px;
+    width: 610px;
 
 }
 
 .first:hover,
 .first:hover img {
     box-shadow: inset 0px 0px 10px
-    rgb(13, 13, 14), 0 0 15px
-    rgb(255, 217, 0);
+    rgb(25, 52, 204), 0 0 15px
+    rgb(22, 15, 53);
 }
 
 /* projects coming soon */
@@ -111,6 +108,13 @@ img{
         rgb(25, 52, 204) 0%,
         rgb(22, 15, 53) 100%
     );
+}
+.pro-soon:hover,
+.pro-soon:hover a{
+
+        box-shadow: inset 0px 0px 10px
+        rgb(25, 52, 204), 0 0 15px
+        rgb(22, 15, 53);
 }
 /* changing link colors */
 a:link{
@@ -143,11 +147,28 @@ a:visited{
     padding-top: 30px;
     padding-right: 30px;
     float: right;
-    color: white;
+    color: black;
     width: 700px;
     text-align: center;
+    background-color:white;
+    border-radius: 7px;
+    margin: 10px 10px;
 
 }
 ul li {
     list-style-type: none;
+}
+/*  */
+#contact {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+#contact h2 {
+    margin: 10px;
+    padding: 10px;
+
+}
+#contact a{
+    color: rgb(45, 45, 248);
 }
