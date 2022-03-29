@@ -4,6 +4,7 @@
 }
 body{
     background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header{
     background-color: black;
@@ -28,7 +29,7 @@ h1{
     display: inline-block;
     padding: 10px;
 }
-
+/*  */
 .intro{
     border: solid black;
     width: 100%;
@@ -60,4 +61,58 @@ h1{
     z-index: 3;
     float: right;
     width: 400px;
+}
+/*  */
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#first-pic{
+    height:400px;
+    width:600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+}
+.projects h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.first:hover, 
+img{
+    border-radius: 30px;
+    transition: all 0.3s ease-in;
+    width: 620px;
+
+}
+
+.first:hover,
+.first:hover img {
+    box-shadow: inset 0px 0px 10px
+    rgb(13, 13, 14), 0 0 15px
+    rgb(255, 217, 0);
+}
+
+
+.pro-soon{
+    width: 500px;
+    height: 170px;
+    border: solid;
+    margin:10px;
+    border-radius: 30px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgb(25, 52, 204) 0%,
+        rgb(22, 15, 53) 100%
+    );
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color:antiquewhite;
 }
