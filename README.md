@@ -10,6 +10,7 @@ The following is a project intended to utilize both HTML and CSS in order to cre
 * Links to deployed applications
 * Responisive layout that adapts to viewport
 
+![Demo](gif/Animation.gif)
 ### Technologies:
 Down below will be necessary tech needed in order to run the files:
 
@@ -36,3 +37,7 @@ https://rich-f-p.github.io/my-portfolio/
 The following is what the project section currently looks like:
 
 <img src="./assets/images/Screenshot(1).jpg" alt="projects-image"/>
+
+#### Code
+* HTML
+* CSS
