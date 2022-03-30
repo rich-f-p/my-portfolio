@@ -2,6 +2,7 @@ body{
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* elements to style fixed navigation bar */
 .header{
     background-color: black;
     color: white;
@@ -27,7 +28,7 @@ h1{
     display: inline-block;
     padding: 10px;
 }
-/*  */
+/* style of introduction and picture of myself */ 
 .intro{
     border: solid black;
     width: 100%;
@@ -61,7 +62,6 @@ h1{
     z-index: 3;
     
 }
-/*  */
 .wrap{
     display: flex;
     flex-wrap: wrap;
@@ -74,6 +74,7 @@ h1{
     flex-wrap: wrap;
     padding:10px;
 }
+/* style layout of project section  */
 #projects {
     width: 100%;
     text-align: center;
@@ -94,7 +95,7 @@ h1{
     font-size: large;
     border: solid;
 }
-
+/* hover effects */
 .first:hover, 
 img{
     border-radius: 30px;
@@ -150,6 +151,7 @@ nav a:visited{
     flex-direction: column;
     
 }
+/* style for about me section  */
 .aboutme h2{
     padding: 50px;
     text-align: left;
@@ -184,7 +186,7 @@ nav a:visited{
 ul li {
     list-style-type: none;
 }
-/*  */
+/* Contact me section with changes to text */
 #contact {
     height: 200px;
     width: 100%;
@@ -198,8 +200,10 @@ ul li {
 #contact a{
     color: rgb(45, 45, 248);
 }
-
+/* view adjustments for viewpoint */
 @media screen and (max-width:600px){
+    
+    body,
     .grey{
         width: 50%;
     }
