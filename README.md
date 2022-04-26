@@ -1,4 +1,4 @@
-# my-portfolio
+# my-portfolio      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 The following is a project intended to utilize both HTML and CSS in order to create a webpage. Now the webpage itself includes information about myself, projects, and ways to contact me. In a sense it is an online portfolio that displays my skills in web development. With this project came a set criteria, down below will be a list of said criteria. 
@@ -37,6 +37,9 @@ https://rich-f-p.github.io/my-portfolio/
 The following is what the project section currently looks like:
 
 <img src="./assets/images/Screenshot(1).jpg" alt="projects-image"/>
+
+### License
+* [License: MIT](https://opensource.org/licenses/MIT) : click to learn more
 
 #### Code
 * HTML
